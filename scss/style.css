@@ -1,0 +1,145 @@
+html body {
+  background-color: #ff9800;
+}
+
+* {
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+  padding-inline-start: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  margin: 15px;
+}
+header img {
+  width: 100px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: flex-end;
+}
+
+main {
+  text-align: center;
+}
+main h1 {
+  background-color: #edede9;
+  margin: auto;
+  width: 300px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 12px;
+}
+main h2 {
+  background-color: #edede9;
+  width: 300px;
+  margin: auto;
+  border-radius: 12px;
+}
+
+main div.productos {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 900px;
+}
+
+main div.productos img {
+  width: 200px;
+  margin: 30px;
+}
+
+footer {
+  background-color: #264653;
+  color: white;
+}
+footer a {
+  color: red;
+}
+
+@media (max-width: 520px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .banner {
+    width: 300px;
+  }
+  main div.productos {
+    flex-direction: column;
+    width: 100%;
+  }
+  footer {
+    text-align: center;
+  }
+}
+div.Rolls img {
+  height: 200px;
+  width: 250px;
+  padding: 1px;
+  border: 10px solid rgba(0, 0, 0, 0.925);
+  margin-top: 100px;
+}
+
+main h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #edede9;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.Carta img {
+  height: 250px;
+  width: 250px;
+  padding: 1px;
+  border: 10px solid rgba(0, 0, 0, 0.925);
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+div.Gohan img {
+  height: 250px;
+  width: 250px;
+  padding: 1px;
+  display: flexbox;
+  margin-top: 95px;
+  border: 10px solid rgba(0, 0, 0, 0.925);
+}
+
+div.Entradas img {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 150px;
+  margin-top: 100px;
+  display: flexbox;
+  border: 10px solid rgba(0, 0, 0, 0.925);
+}
+
+div.Woks img {
+  height: 250px;
+  width: 250px;
+  margin-bottom: 150px;
+  margin-top: 100px;
+  display: flexbox;
+  border: 10px solid rgba(0, 0, 0, 0.925);
+}
+
+main div h1.img {
+  border: 10px solid rgba(0, 0, 0, 0.925);
+}
+
+h1.a img {
+  border: 10px solid rgba(0, 0, 0, 0.925);
+}
+
+main div h1 img {
+  border: 10px solid rgba(0, 0, 0, 0.925);
+}
+
+main div a img {
+  border: 10px solid rgba(0, 0, 0, 0.925);
+} /*# sourceMappingURL=styles.css.map *//*# sourceMappingURL=style.css.map */
